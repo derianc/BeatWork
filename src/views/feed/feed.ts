@@ -5,7 +5,10 @@ import jobCard from "@/components/jobCard/jobCard.vue";
 import {
     IonPage,
     IonContent,
-    onIonViewWillEnter
+    onIonViewWillEnter,
+    IonHeader,
+    IonToolbar,
+    IonTitle
   } from "@ionic/vue";
 import { JobDTO } from "@/data/job.dto";
 
@@ -13,6 +16,9 @@ import { JobDTO } from "@/data/job.dto";
 export default defineComponent({
     components:{
         IonPage,
+        IonHeader,
+        IonToolbar,
+        IonTitle,
         IonContent,
         jobCard
     },
