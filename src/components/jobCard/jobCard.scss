@@ -1,9 +1,9 @@
-.card {
+.jobCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #56d8f0;
+    background-color: #7091E6;
     border-radius: 15px;
     border: 5px solid rgba(255, 255, 255, .2);
     box-shadow: 0 0 100px rgba(0, 0, 0, .2);
@@ -30,12 +30,13 @@
         width: 180px;
 
         .job-title {
-            color: rgb(163, 163, 173);
-            font-size: 25px;
+            color: #3D52A0;
+            font-size: 15px;
+            font-weight: bold;
         }
 
         .emp-name {
-            font-size: 15px;
+            font-size: 12px;
         }
     }
 
@@ -71,7 +72,7 @@
 
 .row2Label {
     font-size: 12px;
-    color: darkblue;
+    color: #3D52A0;
 }
 
 .row2Item {

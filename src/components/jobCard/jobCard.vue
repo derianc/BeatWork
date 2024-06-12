@@ -1,5 +1,5 @@
 <template>
-    <ion-card class="card">
+    <ion-card class="jobCard">
         <div class="row-1">
             <img :src="job.jobIconUrl" />
             
@@ -34,17 +34,6 @@
         <div class="row-3">
 
         </div>
-
-        <!-- <div class="card-details">
-            <ion-card-header>
-                <ion-card-title>{{job.jobTitle}}</ion-card-title>
-                <ion-card-subtitle>{{job.employerName}}</ion-card-subtitle>
-            </ion-card-header>
-
-            <ion-card-content>
-                {{job.jobDescription}}
-            </ion-card-content>
-        </div> -->
     </ion-card>
 </template>
 
