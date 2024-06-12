@@ -4,15 +4,20 @@ import HomePage from '../views/HomePage.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
-    redirect: '/home'
+    path: "/",
+    redirect: "/feed",
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: HomePage
-  }
-]
+    path: "/feed",
+    name: "Feed",
+    component: () => import("@/views/feed/feed.vue"),
+  },
+  {
+    path: "/home",
+    name: "Home",
+    component: HomePage,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
